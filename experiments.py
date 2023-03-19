@@ -36,4 +36,7 @@ def expt1(list_size, max_value):
 
 # ---------------------------  Tests ----------------------------------
 
-expt1(10000,10000)
+expt1(10000, 10000) #large size with unique values
+expt1(10000, 30) #large size with similar values
+expt1(10, 10000) #small size with unique values
+expt1(10, 2) #small size with unique values
