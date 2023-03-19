@@ -36,7 +36,10 @@ def expt1(list_size, max_value):
 
 # ---------------------------  Tests ----------------------------------
 
+# I think I'd prefer a BST over an RBT with experiment of small sized lists. For example: expt1(10, 100)
+
 expt1(10000, 10000) #large size with unique values
 expt1(10000, 30) #large size with similar values
 expt1(10, 10000) #small size with unique values
 expt1(10, 2) #small size with unique values
+
