@@ -14,7 +14,7 @@ class RBNode:
         return self == self.parent.left
 
     def is_right_child(self):
-        return not self.is_left_child()
+        return self == self.parent.right
 
     def is_red(self):
         return self.colour == "R"
